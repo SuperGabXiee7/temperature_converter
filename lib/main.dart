@@ -8,6 +8,7 @@ class TempApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Temperature Converter',
       theme: ThemeData(
         useMaterial3: true,
